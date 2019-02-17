@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parallel" duration-ms="100197" started-at="2018-05-13T15:02:07Z" finished-at="2018-05-13T15:03:47Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="53020" started-at="2018-05-13T15:02:07Z" finished-at="2018-05-13T15:03:00Z">
+      <class name="com.pagelibrery.com.ranfordhy.TestExecution">
+        <test-method status="PASS" signature="Verifylaunch(java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrery.com.ranfordhy.TestExecution@60f82f98]" name="Verifylaunch" is-config="true" duration-ms="45744" started-at="2018-05-13T20:32:07Z" finished-at="2018-05-13T20:32:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://srssprojects.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylaunch -->
+        <test-method status="PASS" signature="Verifylogin()[pri:0, instance:com.pagelibrery.com.ranfordhy.TestExecution@60f82f98]" name="Verifylogin" duration-ms="5875" started-at="2018-05-13T20:32:53Z" finished-at="2018-05-13T20:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method status="PASS" signature="Verifybranches()[pri:0, instance:com.pagelibrery.com.ranfordhy.TestExecution@60f82f98]" name="Verifybranches" duration-ms="1369" started-at="2018-05-13T20:32:58Z" finished-at="2018-05-13T20:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifybranches -->
+      </class> <!-- com.pagelibrery.com.ranfordhy.TestExecution -->
+    </test> <!-- chrometest -->
+    <test name="firefoxtest" duration-ms="47007" started-at="2018-05-13T15:03:00Z" finished-at="2018-05-13T15:03:47Z">
+      <class name="com.pagelibrery.com.ranfordhy.TestExecution">
+        <test-method status="PASS" signature="Verifylaunch(java.lang.String, java.lang.String)[pri:0, instance:com.pagelibrery.com.ranfordhy.TestExecution@2ef9b8bc]" name="Verifylaunch" is-config="true" duration-ms="43549" started-at="2018-05-13T20:33:00Z" finished-at="2018-05-13T20:33:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://srssprojects.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylaunch -->
+        <test-method status="PASS" signature="Verifylogin()[pri:0, instance:com.pagelibrery.com.ranfordhy.TestExecution@2ef9b8bc]" name="Verifylogin" duration-ms="2618" started-at="2018-05-13T20:33:44Z" finished-at="2018-05-13T20:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method status="PASS" signature="Verifybranches()[pri:0, instance:com.pagelibrery.com.ranfordhy.TestExecution@2ef9b8bc]" name="Verifybranches" duration-ms="837" started-at="2018-05-13T20:33:46Z" finished-at="2018-05-13T20:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifybranches -->
+      </class> <!-- com.pagelibrery.com.ranfordhy.TestExecution -->
+    </test> <!-- firefoxtest -->
+  </suite> <!-- parallel -->
+</testng-results>

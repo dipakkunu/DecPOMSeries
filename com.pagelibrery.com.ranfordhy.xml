@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parallel">
+<parameter name="url" value="http://srssprojects.in/"/>
+<test name="chrometest">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="com.pagelibrery.com.ranfordhy.TestExecution">
+<methods>
+<include name="Verifylogin"></include>
+<include name="Verifybranches"></include>
+</methods>
+</class>
+</classes>
+</test>
+
+<test name="firefoxtest">
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.pagelibrery.com.ranfordhy.TestExecution">
+<methods>
+<include name="Verifylogin"></include>
+<include name="Verifybranches"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
